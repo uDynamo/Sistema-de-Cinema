@@ -55,7 +55,7 @@ public class AplicarDescontoComboTest_Unidade {
     }
 
     @Test
-    void testNãoAplicarDesconto(){
+    void testNaoAplicarDesconto(){
         double precoTotal = 36.00;
         List<Produto> produtos = Collections.emptyList();
         precoTotal = sistemaCinema.aplicarDescontoCombo(precoTotal, produtos);

@@ -19,7 +19,7 @@ public class CalcularTotalProdutosTest_Unidade {
     }
 
     @Test
-    void calcularTotalProdutosComZeroProdutos() {
+    void testCalcularTotalProdutosComZeroProdutos() {
         List<Produto> produtos = Collections.emptyList();
         double resultado = sistemaCinema.calcularTotalProdutos(produtos);
 
@@ -27,7 +27,7 @@ public class CalcularTotalProdutosTest_Unidade {
     }
 
     @Test
-    void calcularTotalProdutosCom2Produtos() {
+    void testCalcularTotalProdutosCom2Produtos() {
         Produto mockPipoca = mock(Produto.class);
         Produto mockRefri = mock(Produto.class);
 
