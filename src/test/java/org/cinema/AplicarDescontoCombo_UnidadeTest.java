@@ -15,8 +15,6 @@ public class AplicarDescontoCombo_UnidadeTest {
     private Produto mockPipoca;
     private Produto mockRefrigerante;
 
-
-
     @BeforeEach
     void setUp() {
         sistemaCinema = new SistemaCinema();
